@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Area</title>
+</head>
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Play With String</legend>
+                 <label >Enter The String :</label>
+                 <textarea name="text" id="ut" cols="40" rows="10" onchange="fetchData()"></textarea>
+                 <button type="button" onclick="toUpper()">Upper Case</button>
+                 <button type="button" onclick="toReverse()">Reverse String</button>
+            </fieldset>
+        </form>
+        <div id="ten"></div>
+        <div id="char"></div>
+    </div>
+    <script src="text.js"></script>
+</body>
+</html>
